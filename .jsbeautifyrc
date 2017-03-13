@@ -1,0 +1,6 @@
+{
+    "js": {
+        "brace_style": "collapse-preserve-inline",
+        "e4x": true // Pass E4X xml literals through untouched
+    }
+}

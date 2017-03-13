@@ -1,0 +1,563 @@
+{
+  "name": "founder-mapapp-template",
+  "version": "1.0.0",
+  "dependencies": {
+    "babel-core": {
+      "version": "6.23.1",
+      "from": "babel-core@latest",
+      "resolved": "https://registry.npm.taobao.org/babel-core/download/babel-core-6.23.1.tgz",
+      "dependencies": {
+        "babel-code-frame": {
+          "version": "6.22.0",
+          "from": "babel-code-frame@>=6.22.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-code-frame/download/babel-code-frame-6.22.0.tgz",
+          "dependencies": {
+            "chalk": {
+              "version": "1.1.3",
+              "from": "chalk@>=1.1.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz",
+              "dependencies": {
+                "ansi-styles": {
+                  "version": "2.2.1",
+                  "from": "ansi-styles@>=2.2.1 <3.0.0",
+                  "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz"
+                },
+                "escape-string-regexp": {
+                  "version": "1.0.5",
+                  "from": "escape-string-regexp@>=1.0.2 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+                },
+                "has-ansi": {
+                  "version": "2.0.0",
+                  "from": "has-ansi@>=2.0.0 <3.0.0",
+                  "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz",
+                  "dependencies": {
+                    "ansi-regex": {
+                      "version": "2.1.1",
+                      "from": "ansi-regex@>=2.0.0 <3.0.0",
+                      "resolved": "https://registry.npm.taobao.org/ansi-regex/download/ansi-regex-2.1.1.tgz"
+                    }
+                  }
+                },
+                "strip-ansi": {
+                  "version": "3.0.1",
+                  "from": "strip-ansi@>=3.0.0 <4.0.0",
+                  "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz",
+                  "dependencies": {
+                    "ansi-regex": {
+                      "version": "2.1.1",
+                      "from": "ansi-regex@>=2.0.0 <3.0.0",
+                      "resolved": "https://registry.npm.taobao.org/ansi-regex/download/ansi-regex-2.1.1.tgz"
+                    }
+                  }
+                },
+                "supports-color": {
+                  "version": "2.0.0",
+                  "from": "supports-color@>=2.0.0 <3.0.0",
+                  "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz"
+                }
+              }
+            },
+            "esutils": {
+              "version": "2.0.2",
+              "from": "esutils@>=2.0.2 <3.0.0",
+              "resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz"
+            },
+            "js-tokens": {
+              "version": "3.0.1",
+              "from": "js-tokens@>=3.0.0 <4.0.0",
+              "resolved": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.1.tgz"
+            }
+          }
+        },
+        "babel-generator": {
+          "version": "6.23.0",
+          "from": "babel-generator@>=6.23.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-generator/download/babel-generator-6.23.0.tgz",
+          "dependencies": {
+            "detect-indent": {
+              "version": "4.0.0",
+              "from": "detect-indent@>=4.0.0 <5.0.0",
+              "resolved": "https://registry.npmjs.org/detect-indent/-/detect-indent-4.0.0.tgz",
+              "dependencies": {
+                "repeating": {
+                  "version": "2.0.1",
+                  "from": "repeating@>=2.0.0 <3.0.0",
+                  "resolved": "https://registry.npmjs.org/repeating/-/repeating-2.0.1.tgz",
+                  "dependencies": {
+                    "is-finite": {
+                      "version": "1.0.2",
+                      "from": "is-finite@>=1.0.0 <2.0.0",
+                      "resolved": "https://registry.npmjs.org/is-finite/-/is-finite-1.0.2.tgz",
+                      "dependencies": {
+                        "number-is-nan": {
+                          "version": "1.0.1",
+                          "from": "number-is-nan@>=1.0.0 <2.0.0",
+                          "resolved": "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "jsesc": {
+              "version": "1.3.0",
+              "from": "jsesc@>=1.3.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/jsesc/-/jsesc-1.3.0.tgz"
+            },
+            "trim-right": {
+              "version": "1.0.1",
+              "from": "trim-right@>=1.0.1 <2.0.0",
+              "resolved": "https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz"
+            }
+          }
+        },
+        "babel-helpers": {
+          "version": "6.23.0",
+          "from": "babel-helpers@>=6.23.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-helpers/download/babel-helpers-6.23.0.tgz"
+        },
+        "babel-messages": {
+          "version": "6.23.0",
+          "from": "babel-messages@>=6.23.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-messages/download/babel-messages-6.23.0.tgz"
+        },
+        "babel-template": {
+          "version": "6.23.0",
+          "from": "babel-template@>=6.23.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-template/download/babel-template-6.23.0.tgz"
+        },
+        "babel-runtime": {
+          "version": "6.23.0",
+          "from": "babel-runtime@>=6.22.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.23.0.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "2.4.1",
+              "from": "core-js@>=2.4.0 <3.0.0",
+              "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.4.1.tgz"
+            },
+            "regenerator-runtime": {
+              "version": "0.10.3",
+              "from": "regenerator-runtime@>=0.10.0 <0.11.0",
+              "resolved": "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.10.3.tgz"
+            }
+          }
+        },
+        "babel-register": {
+          "version": "6.23.0",
+          "from": "babel-register@>=6.23.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-register/download/babel-register-6.23.0.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "2.4.1",
+              "from": "core-js@>=2.4.0 <3.0.0",
+              "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.4.1.tgz"
+            },
+            "home-or-tmp": {
+              "version": "2.0.0",
+              "from": "home-or-tmp@>=2.0.0 <3.0.0",
+              "resolved": "https://registry.npm.taobao.org/home-or-tmp/download/home-or-tmp-2.0.0.tgz",
+              "dependencies": {
+                "os-homedir": {
+                  "version": "1.0.2",
+                  "from": "os-homedir@>=1.0.0 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz"
+                },
+                "os-tmpdir": {
+                  "version": "1.0.2",
+                  "from": "os-tmpdir@>=1.0.1 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
+                }
+              }
+            },
+            "mkdirp": {
+              "version": "0.5.1",
+              "from": "mkdirp@>=0.5.1 <0.6.0",
+              "resolved": "https://registry.npm.taobao.org/mkdirp/download/mkdirp-0.5.1.tgz",
+              "dependencies": {
+                "minimist": {
+                  "version": "0.0.8",
+                  "from": "minimist@0.0.8",
+                  "resolved": "https://registry.npm.taobao.org/minimist/download/minimist-0.0.8.tgz"
+                }
+              }
+            },
+            "source-map-support": {
+              "version": "0.4.11",
+              "from": "source-map-support@>=0.4.2 <0.5.0",
+              "resolved": "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.4.11.tgz"
+            }
+          }
+        },
+        "babel-traverse": {
+          "version": "6.23.1",
+          "from": "babel-traverse@>=6.23.1 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-traverse/download/babel-traverse-6.23.1.tgz",
+          "dependencies": {
+            "globals": {
+              "version": "9.16.0",
+              "from": "globals@>=9.0.0 <10.0.0",
+              "resolved": "https://registry.npm.taobao.org/globals/download/globals-9.16.0.tgz"
+            },
+            "invariant": {
+              "version": "2.2.2",
+              "from": "invariant@>=2.2.0 <3.0.0",
+              "resolved": "https://registry.npm.taobao.org/invariant/download/invariant-2.2.2.tgz",
+              "dependencies": {
+                "loose-envify": {
+                  "version": "1.3.1",
+                  "from": "loose-envify@>=1.0.0 <2.0.0",
+                  "resolved": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.3.1.tgz",
+                  "dependencies": {
+                    "js-tokens": {
+                      "version": "3.0.1",
+                      "from": "js-tokens@>=3.0.0 <4.0.0",
+                      "resolved": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.1.tgz"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "babel-types": {
+          "version": "6.23.0",
+          "from": "babel-types@>=6.23.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-types/download/babel-types-6.23.0.tgz",
+          "dependencies": {
+            "esutils": {
+              "version": "2.0.2",
+              "from": "esutils@>=2.0.2 <3.0.0",
+              "resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz"
+            },
+            "to-fast-properties": {
+              "version": "1.0.2",
+              "from": "to-fast-properties@>=1.0.1 <2.0.0",
+              "resolved": "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-1.0.2.tgz"
+            }
+          }
+        },
+        "babylon": {
+          "version": "6.16.1",
+          "from": "babylon@>=6.11.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babylon/download/babylon-6.16.1.tgz"
+        },
+        "convert-source-map": {
+          "version": "1.4.0",
+          "from": "convert-source-map@>=1.1.0 <2.0.0",
+          "resolved": "https://registry.npm.taobao.org/convert-source-map/download/convert-source-map-1.4.0.tgz"
+        },
+        "debug": {
+          "version": "2.6.1",
+          "from": "debug@>=2.1.1 <3.0.0",
+          "resolved": "https://registry.npm.taobao.org/debug/download/debug-2.6.1.tgz",
+          "dependencies": {
+            "ms": {
+              "version": "0.7.2",
+              "from": "ms@0.7.2",
+              "resolved": "https://registry.npm.taobao.org/ms/download/ms-0.7.2.tgz"
+            }
+          }
+        },
+        "json5": {
+          "version": "0.5.1",
+          "from": "json5@>=0.5.0 <0.6.0",
+          "resolved": "https://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz"
+        },
+        "lodash": {
+          "version": "4.17.4",
+          "from": "lodash@>=4.2.0 <5.0.0",
+          "resolved": "https://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz"
+        },
+        "minimatch": {
+          "version": "3.0.3",
+          "from": "minimatch@>=3.0.2 <4.0.0",
+          "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz",
+          "dependencies": {
+            "brace-expansion": {
+              "version": "1.1.6",
+              "from": "brace-expansion@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz",
+              "dependencies": {
+                "balanced-match": {
+                  "version": "0.4.2",
+                  "from": "balanced-match@>=0.4.1 <0.5.0",
+                  "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz"
+                },
+                "concat-map": {
+                  "version": "0.0.1",
+                  "from": "concat-map@0.0.1",
+                  "resolved": "https://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz"
+                }
+              }
+            }
+          }
+        },
+        "path-is-absolute": {
+          "version": "1.0.1",
+          "from": "path-is-absolute@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
+        },
+        "private": {
+          "version": "0.1.7",
+          "from": "private@>=0.1.6 <0.2.0",
+          "resolved": "https://registry.npm.taobao.org/private/download/private-0.1.7.tgz"
+        },
+        "slash": {
+          "version": "1.0.0",
+          "from": "slash@>=1.0.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz"
+        },
+        "source-map": {
+          "version": "0.5.6",
+          "from": "source-map@>=0.5.0 <0.6.0",
+          "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz"
+        }
+      }
+    },
+    "babel-polyfill": {
+      "version": "6.23.0",
+      "from": "babel-polyfill@latest",
+      "resolved": "https://registry.npm.taobao.org/babel-polyfill/download/babel-polyfill-6.23.0.tgz",
+      "dependencies": {
+        "core-js": {
+          "version": "2.4.1",
+          "from": "core-js@>=2.4.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.4.1.tgz"
+        },
+        "babel-runtime": {
+          "version": "6.23.0",
+          "from": "babel-runtime@>=6.22.0 <7.0.0",
+          "resolved": "https://registry.npm.taobao.org/babel-runtime/download/babel-runtime-6.23.0.tgz"
+        },
+        "regenerator-runtime": {
+          "version": "0.10.3",
+          "from": "regenerator-runtime@>=0.10.0 <0.11.0",
+          "resolved": "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.10.3.tgz"
+        }
+      }
+    },
+    "classnames": {
+      "version": "2.2.5",
+      "from": "classnames@latest",
+      "resolved": "https://registry.npmjs.org/classnames/-/classnames-2.2.5.tgz"
+    },
+    "lodash": {
+      "version": "4.17.4",
+      "from": "lodash@latest",
+      "resolved": "https://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz"
+    },
+    "mobx": {
+      "version": "3.1.5",
+      "from": "mobx@latest",
+      "resolved": "https://registry.npm.taobao.org/mobx/download/mobx-3.1.5.tgz"
+    },
+    "mobx-react": {
+      "version": "4.1.2",
+      "from": "mobx-react@latest",
+      "resolved": "https://registry.npm.taobao.org/mobx-react/download/mobx-react-4.1.2.tgz",
+      "dependencies": {
+        "hoist-non-react-statics": {
+          "version": "1.2.0",
+          "from": "hoist-non-react-statics@>=1.2.0 <2.0.0",
+          "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz"
+        }
+      }
+    },
+    "mobx-react-devtools": {
+      "version": "4.2.11",
+      "from": "mobx-react-devtools@latest",
+      "resolved": "https://registry.npm.taobao.org/mobx-react-devtools/download/mobx-react-devtools-4.2.11.tgz"
+    },
+    "react": {
+      "version": "15.4.2",
+      "from": "react@latest",
+      "resolved": "https://registry.npm.taobao.org/react/download/react-15.4.2.tgz",
+      "dependencies": {
+        "fbjs": {
+          "version": "0.8.9",
+          "from": "fbjs@>=0.8.4 <0.9.0",
+          "resolved": "https://registry.npm.taobao.org/fbjs/download/fbjs-0.8.9.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "1.2.7",
+              "from": "core-js@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz"
+            },
+            "isomorphic-fetch": {
+              "version": "2.2.1",
+              "from": "isomorphic-fetch@>=2.1.1 <3.0.0",
+              "resolved": "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz",
+              "dependencies": {
+                "node-fetch": {
+                  "version": "1.6.3",
+                  "from": "node-fetch@>=1.0.1 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.6.3.tgz",
+                  "dependencies": {
+                    "encoding": {
+                      "version": "0.1.12",
+                      "from": "encoding@>=0.1.11 <0.2.0",
+                      "resolved": "https://registry.npmjs.org/encoding/-/encoding-0.1.12.tgz",
+                      "dependencies": {
+                        "iconv-lite": {
+                          "version": "0.4.15",
+                          "from": "iconv-lite@>=0.4.13 <0.5.0",
+                          "resolved": "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.15.tgz"
+                        }
+                      }
+                    },
+                    "is-stream": {
+                      "version": "1.1.0",
+                      "from": "is-stream@>=1.0.1 <2.0.0",
+                      "resolved": "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz"
+                    }
+                  }
+                },
+                "whatwg-fetch": {
+                  "version": "2.0.3",
+                  "from": "whatwg-fetch@>=0.10.0",
+                  "resolved": "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-2.0.3.tgz"
+                }
+              }
+            },
+            "promise": {
+              "version": "7.1.1",
+              "from": "promise@>=7.1.1 <8.0.0",
+              "resolved": "https://registry.npmjs.org/promise/-/promise-7.1.1.tgz",
+              "dependencies": {
+                "asap": {
+                  "version": "2.0.5",
+                  "from": "asap@>=2.0.3 <2.1.0",
+                  "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.5.tgz"
+                }
+              }
+            },
+            "setimmediate": {
+              "version": "1.0.5",
+              "from": "setimmediate@>=1.0.5 <2.0.0",
+              "resolved": "https://registry.npm.taobao.org/setimmediate/download/setimmediate-1.0.5.tgz"
+            },
+            "ua-parser-js": {
+              "version": "0.7.12",
+              "from": "ua-parser-js@>=0.7.9 <0.8.0",
+              "resolved": "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.12.tgz"
+            }
+          }
+        },
+        "loose-envify": {
+          "version": "1.3.1",
+          "from": "loose-envify@>=1.1.0 <2.0.0",
+          "resolved": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.3.1.tgz",
+          "dependencies": {
+            "js-tokens": {
+              "version": "3.0.1",
+              "from": "js-tokens@>=3.0.0 <4.0.0",
+              "resolved": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.1.tgz"
+            }
+          }
+        },
+        "object-assign": {
+          "version": "4.1.1",
+          "from": "object-assign@>=4.1.0 <5.0.0",
+          "resolved": "https://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz"
+        }
+      }
+    },
+    "react-dom": {
+      "version": "15.4.2",
+      "from": "react-dom@latest",
+      "resolved": "https://registry.npm.taobao.org/react-dom/download/react-dom-15.4.2.tgz",
+      "dependencies": {
+        "fbjs": {
+          "version": "0.8.9",
+          "from": "fbjs@>=0.8.1 <0.9.0",
+          "resolved": "https://registry.npm.taobao.org/fbjs/download/fbjs-0.8.9.tgz",
+          "dependencies": {
+            "core-js": {
+              "version": "1.2.7",
+              "from": "core-js@>=1.0.0 <2.0.0",
+              "resolved": "https://registry.npmjs.org/core-js/-/core-js-1.2.7.tgz"
+            },
+            "isomorphic-fetch": {
+              "version": "2.2.1",
+              "from": "isomorphic-fetch@>=2.1.1 <3.0.0",
+              "resolved": "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz",
+              "dependencies": {
+                "node-fetch": {
+                  "version": "1.6.3",
+                  "from": "node-fetch@>=1.0.1 <2.0.0",
+                  "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.6.3.tgz",
+                  "dependencies": {
+                    "encoding": {
+                      "version": "0.1.12",
+                      "from": "encoding@>=0.1.11 <0.2.0",
+                      "resolved": "https://registry.npmjs.org/encoding/-/encoding-0.1.12.tgz",
+                      "dependencies": {
+                        "iconv-lite": {
+                          "version": "0.4.15",
+                          "from": "iconv-lite@>=0.4.13 <0.5.0",
+                          "resolved": "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.15.tgz"
+                        }
+                      }
+                    },
+                    "is-stream": {
+                      "version": "1.1.0",
+                      "from": "is-stream@>=1.0.1 <2.0.0",
+                      "resolved": "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz"
+                    }
+                  }
+                },
+                "whatwg-fetch": {
+                  "version": "2.0.3",
+                  "from": "whatwg-fetch@>=0.10.0",
+                  "resolved": "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-2.0.3.tgz"
+                }
+              }
+            },
+            "promise": {
+              "version": "7.1.1",
+              "from": "promise@>=7.1.1 <8.0.0",
+              "resolved": "https://registry.npmjs.org/promise/-/promise-7.1.1.tgz",
+              "dependencies": {
+                "asap": {
+                  "version": "2.0.5",
+                  "from": "asap@>=2.0.3 <2.1.0",
+                  "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.5.tgz"
+                }
+              }
+            },
+            "setimmediate": {
+              "version": "1.0.5",
+              "from": "setimmediate@>=1.0.5 <2.0.0",
+              "resolved": "https://registry.npm.taobao.org/setimmediate/download/setimmediate-1.0.5.tgz"
+            },
+            "ua-parser-js": {
+              "version": "0.7.12",
+              "from": "ua-parser-js@>=0.7.9 <0.8.0",
+              "resolved": "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.12.tgz"
+            }
+          }
+        },
+        "loose-envify": {
+          "version": "1.3.1",
+          "from": "loose-envify@>=1.1.0 <2.0.0",
+          "resolved": "https://registry.npm.taobao.org/loose-envify/download/loose-envify-1.3.1.tgz",
+          "dependencies": {
+            "js-tokens": {
+              "version": "3.0.1",
+              "from": "js-tokens@>=3.0.0 <4.0.0",
+              "resolved": "https://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.1.tgz"
+            }
+          }
+        },
+        "object-assign": {
+          "version": "4.1.1",
+          "from": "object-assign@>=4.1.0 <5.0.0",
+          "resolved": "https://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz"
+        }
+      }
+    }
+  }
+}

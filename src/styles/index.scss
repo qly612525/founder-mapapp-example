@@ -1,0 +1,7 @@
+// index.scss entry point for all styles
+@import './reset.css';
+@import './global.scss';
+@import './variable.scss';
+@import '../components/index.scss';
+@import '../views/index.scss';
+@import '../templates/index.scss';
